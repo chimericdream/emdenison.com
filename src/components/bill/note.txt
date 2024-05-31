@@ -1,0 +1,8 @@
+The files in this folder would not necessarily be all grouped together normally. I just lumped them here so they would
+be separate from the existing components.
+
+Also, context isn't necessarily the only (or possibly even best) way to abstract something like this out of your
+component structure. It is simply the first and quickest thing that came to mind when I was thinking about what I think
+you're aiming for.
+
+Some of the components could easily be further broken out into separate bits, but don't necessarily have to be.

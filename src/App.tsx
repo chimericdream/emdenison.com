@@ -3,8 +3,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-import TheReluctantCyborg from "./pages/books/TheReluctantCyborg";
-import DigitalNative from "./pages/books/DigitalNative";
+import BookPage from "./pages/books/[slug]";
 
 const router = createBrowserRouter([
   {
@@ -12,13 +11,9 @@ const router = createBrowserRouter([
     element: <HomePage />
   },
   {
-    path: "/book/the-reluctant-cyborg",
-    element: <TheReluctantCyborg />
+    path: "/book/:slug",
+    element: <BookPage />
   },
-  {
-    path: "/book/digital-native",
-    element: <DigitalNative />
-  }
 ]);
 
 function App() {

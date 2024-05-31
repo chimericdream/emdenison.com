@@ -11,7 +11,7 @@ import BookButton from "../components/book-card/BookButton";
 import BookCardTitle from "../components/book-card/BookCardTitle";
 import BookCardSubTitle from "../components/book-card/BookCardSubTitle";
 import BookCardText from "../components/book-card/BookCardText";
-import NewsletterCard from "../components/Newsletter";
+import NewsletterCard from "../components/newsletter";
 import ButtonOutline from "../components/ButtonOutline";
 import {Helmet} from "react-helmet";
 import Footer from "../components/layout/footer";
